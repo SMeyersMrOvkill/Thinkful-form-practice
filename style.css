@@ -1,0 +1,11 @@
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+input {
+    flex: 1;
+}
+label {
+    flex: 1;
+}

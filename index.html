@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Practice</title>
+</head>
+<body>
+    <form action="https://formspree.io/f/xdopeevp" method="POST">
+        <!-- Name -->
+        <div class="form-group">
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" placeholder="Your Name">
+        </div>
+        <!-- Email -->
+        <div class="form-group">
+            <label for="email">E-Mail Address: </label>
+            <input type="email" id="email" name="_replyto" placeholder="you@domain.com">
+        </div>
+        <!-- Message -->
+        <div class="form-group">
+            <label for="message">Message: </label>
+            <textarea id="message" name="message" placeholder="Sam, I'm saying..."></textarea>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Send">
+        </div>
+    </form>
+</body>
+</html>
