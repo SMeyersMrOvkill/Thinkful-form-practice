@@ -3,8 +3,35 @@ form {
     display: flex;
     flex-direction: column;
 }
-form input,
-form textarea {
-    flex: 1;
+form button {
+    padding: 10px 16px;
+    border-radius: 10px;
+    border: 0;
+    font-family: Tahoma;
+    font-size: 16px;
+    background: darkgray;
+    color: #000;
+    margin: 0 8px 10px 0;
+}
+form label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: gray;
+    font-family: arial;
+}
+  
+form input[type=text],
+form input[type=email] {
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 20px;
     width: 100%;
 }
+form textarea {
+    height: 4.75rem;
+    width: 100%;
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
